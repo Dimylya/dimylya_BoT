@@ -2,7 +2,7 @@ const { Bot } = require("grammy");
 const { userInfo } = require("os");
 
 
-const bot = new Bot("8234427135:AAH3fXantK4EXluB-XG9DSoHkcl_Ota1HTg");  
+const bot = new Bot("");  
 
 bot.command('start', (ctx)=>{
     console.log(ctx);
